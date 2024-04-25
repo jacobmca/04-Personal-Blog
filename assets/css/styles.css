@@ -14,10 +14,22 @@ body.dark-mode h2 {
     color: #ffffff;
 }
 
+body.dark-mode h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .user-post {
+    color: #ffffff;
+}
+
 body.dark-mode p {
     color: #ffffff;
 }
 
 body.dark-mode label {
+    color: #ffffff;
+}
+
+body.dark-mode a {
     color: #ffffff;
 }
