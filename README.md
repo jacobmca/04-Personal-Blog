@@ -19,11 +19,12 @@ To install, please clone this repository to your computer using the following st
 
 ## Usage
 
-To view this site, either visit the link <https://jacobmca.github.io/Employee-Payroll-Tracker/> or open the 04-Personal-Blog/index.html file on any major browser from your computer.
+To view this site, either visit the link <https://jacobmca.github.io/04-Personal-Blog/index.html> or open the 04-Personal-Blog/index.html file on any major browser from your computer.
 
 ## Screenshot
 
-![Screenshot](Assets/screenshot.png)
+![Screenshot](assets/images/screenshot-1.png)
+![Screenshot](assets/images/screenshot-2.png)
 
 ## Credits
 
