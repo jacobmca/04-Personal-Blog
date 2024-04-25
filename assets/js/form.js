@@ -23,7 +23,7 @@ if (username !== "" && blogTitle !== "" && blogContent !== "") {
 
     window.location.href = "blog.html";
 } else {
-    alert("All fields must be filled out.");
+    alert("All fields must be completed.");
 }
 });
 });
