@@ -1,0 +1,23 @@
+body {
+    background-color: #f2f2f2;
+}
+
+body.dark-mode {
+    background-color: #404040;
+}
+
+body.dark-mode h1 {
+    color: #ffffff;
+}
+
+body.dark-mode h2 {
+    color: #ffffff;
+}
+
+body.dark-mode p {
+    color: #ffffff;
+}
+
+body.dark-mode label {
+    color: #ffffff;
+}

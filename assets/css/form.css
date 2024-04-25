@@ -1,0 +1,142 @@
+.form-page {
+    display: flex;
+}
+
+/* Left Side Intro Styling */
+
+.landing-image {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 90vh;
+    border-style: solid;
+    border-width: 5px;
+    margin: 4px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Verdana', Arial, sans-serif;
+    padding-top: 40%;
+}
+
+/* Right Side Blog Creation Styling */
+
+.create-blog-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 90vh;
+    border-style: solid;
+    border-width: 5px;
+    margin: 8px;
+}
+
+#username, #blog-title, #blog-content {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+label {
+    display: block;
+    width: 30%;
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Verdana', Arial, sans-serif;
+    margin-right: 100px;
+    white-space: nowrap;
+}
+
+input {
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 8px 20px;
+}
+
+textarea {
+    display: block;
+    text-align: left;
+    width: 600px;
+    height: 150px;
+}
+
+button {
+    background-color: #ffffff;
+    padding: 10px 50px;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+    transition: .3s;
+    cursor: pointer;
+}
+
+/* Light/Dark Switch */
+
+.switch {
+    position: absolute;
+    top: 2.5%;
+    right: 0.5%;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #8c8c8c;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #8c8c8c;
+}
+
+input:checked + .slider:before {
+    -webkit-transition: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Footer */
+
+footer {
+    font-size: 20px;
+    font-family: 'Verdana', Arial, sans-serif;
+}
