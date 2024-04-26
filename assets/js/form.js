@@ -1,3 +1,5 @@
+/* User Inputs/Submissions to blog.html and local storage */
+
 document.addEventListener("DOMContentLoaded", function() {
     let usernameInput = document.querySelector("#username input");
     let blogTitleInput = document.querySelector("#blog-title input");

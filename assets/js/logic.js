@@ -1,3 +1,5 @@
+/* Dark Mode */
+
 document.addEventListener("DOMContentLoaded", function() {
     const userMode = localStorage.getItem("mode");
 
