@@ -2,9 +2,9 @@
 
 ## Description
 
-This is my repository for the UC Berkeley eDX Bootcamp's challenge for Week 4: Web APIs. I completed this challenge to display my understanding of advanced JavaScript principles and APIs, including concepts such as the window object, the DOM, event listeners, and local storage.
+This is my repository for the UC Berkeley eDX Bootcamp's challenge for Week 4: Web APIs. I completed this challenge to display my understanding of more advanced JavaScript principles and APIs, including concepts such as the window object, the DOM, event listeners, and local storage.
 
-This repository contains the code for a two-page personal blog website. It allows users to input blog posts on the first page (index.html), which are then posted onto the second page (blog.html). Blog posts are all stored to local storage, and display the post's author, title, and content. From the second page, users can return to the first page to post again using the Back button, and/or press the Clear Posts button to clear the page/local storage of posts. The website also allows the user to switch between light and dark mode.
+This repository contains the code for a two-page personal blog. It allows users to input blog posts on the first page (index.html), which are then posted onto the second page (blog.html). Blog posts are  stored to local storage, and display the post's author, title, and content. From the second page, users can return to the first page to post again using the Back button, and/or press the Clear Posts button to clear the page/local storage of posts. The website also allows the user to switch between light and dark modes.
 
 This project utilizes fundamental JavaScript concepts to display what I have learned this past four weeks in a practical, encompassing website.
 
